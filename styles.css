@@ -102,18 +102,18 @@
 }
 .product1{
     border: 5px solid black;
+    box-shadow: 4px  2px 105px gray;
     border-radius: 5px;
     bo
     height: 150px;
     width: 125px;
     background-color: black;
-    box-shadow: 10px 20px rgba(46, 45, 45, 0.671);
-
 }
 .divbox{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    
    
 }
 .headser{
@@ -126,14 +126,17 @@
 }
 .digitalart{
     padding: 10px;
+    
 }
 .service-container{
-    padding: 10px;
+    margin-top: 0px;
+    padding: 0px;
     align-items: center;
     color: white;
-    height: 85vh;
-    background-color: rgba(14, 13, 13, 0.781); 
-    background-image: url(./images/background.png); 
+    height: 100vh;
+    background-color: rgba(10, 10, 10, 0.959); 
+    background-image: url(./images/background.png) linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e); 
+    flex-wrap: wrap;
 }
 .icon{
     width: 30px;
@@ -146,4 +149,32 @@
     font-size: 10px;
     color: white;
     background-color: #2e2e2e
+}
+.footer-container{
+    height: 50vh;
+      /* align-items: center; */
+      color: white;
+      background-color: rgb(1, 1, 1); 
+      margin-right: 0px;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+}
+
+.useful-links{
+    list-style: none;
+    margin-right: 0px;
+}
+.information{
+    font-size: 10px;
+    padding-top: 20px;
+}
+.information-para{
+    font-size: 10px;
+}
+.useful-links{
+    font-size: 10px;
+}
+.Copyright{
+    color: white;
 }
