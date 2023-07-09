@@ -20,14 +20,14 @@
 }
 .item{
     margin-right: 10px;
-    padding: 3px;
-    font-size: 10px;
+    padding: 10px;
+    font-size: 20px;
 }
 .item:hover {
     background-color: rgb(88, 212, 228);
 }
 .banner-img{
-    width: 150px;
+    width: 350px;
     padding: 15px;
 }
 .banner-container{
@@ -48,7 +48,7 @@
     font-weight: bold;
 }
 .banner-para{
-    font-size: 10px;
+    font-size: 20px;
     margin-top: 15px;
 }
 .btn{
@@ -57,11 +57,12 @@
     padding: 13px 20px;
     outline: none;
     border: none;
+    font-size: 20px;
     border-radius: 3px;
     color: white;  
 }
 .photo{
-    width: 130px;
+    width: 200px;
     padding: 40px;
 }
 .about-us-container{
@@ -74,7 +75,7 @@
 .about-us-title{
     margin-top: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 .about-us-text{
     padding-left: 200px;
@@ -82,10 +83,10 @@
 }
 .second-title{
     margin-bottom: 5px;
-    font-size: medium;
+    font-size: 40px;
 }
 .descriptions{
-    font-size: small;
+    font-size: 20px;
 }
 .btnn{
     margin-top: 15px;
@@ -95,7 +96,7 @@
     border: none;
     border-radius: 3px;
     color: white;  
-    font-size: 10px;
+    font-size: 15px;
 }
 .about-us-image{
     padding-left: 50px;
@@ -104,9 +105,8 @@
     border: 5px solid black;
     box-shadow: 4px  2px 105px gray;
     border-radius: 5px;
-    bo
-    height: 150px;
-    width: 125px;
+    height: 400px;
+    width: 250px;
     background-color: black;
 }
 .divbox{
@@ -121,11 +121,13 @@
     padding: 30px;
 }
 .para{
-    font-size: 9px;
-    padding: 5px 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 10px 5px;
 }
 .digitalart{
-    padding: 10px;
+    padding: 20px;
     
 }
 .service-container{
@@ -143,19 +145,19 @@
     vertical-align: middle;
 }
 .dbtn{
-    margin-top: 5px;
+    margin-top: 20px;
     padding: 5px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 15px;
     color: white;
     background-color: #2e2e2e
 }
 .footer-container{
-    height: 50vh;
-      /* align-items: center; */
+    height: 50vh; 
+      align-items: center;
       color: white;
       background-color: rgb(1, 1, 1); 
-      margin-right: 0px;
+      margin: 0px;
       padding: 20px;
       display: flex;
       justify-content: space-around;
@@ -166,15 +168,13 @@
     margin-right: 0px;
 }
 .information{
-    font-size: 10px;
+    font-size: 20px;
     padding-top: 20px;
 }
 .information-para{
-    font-size: 10px;
+    font-size: 15px;
 }
 .useful-links{
-    font-size: 10px;
+    font-size: 15px;
 }
-.Copyright{
-    color: white;
-}
+
