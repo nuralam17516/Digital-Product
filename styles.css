@@ -159,10 +159,14 @@
       background-color: rgb(1, 1, 1); 
       margin: 0px;
       padding: 20px;
-      display: flex;
-      justify-content: space-around;
+      
 }
 
+
+.new{
+    display: flex;
+    justify-content: space-around;
+}
 .useful-links{
     list-style: none;
     margin-right: 0px;
@@ -176,5 +180,8 @@
 }
 .useful-links{
     font-size: 15px;
+}
+.copyright{
+    
 }
 
